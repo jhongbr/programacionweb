@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 105vw;
+    height: 100vh;
+    background-color:#121534;
+}   
+
+.container1{
+    width: 500px;
+    height: 450px;
+    background-color: #1b2141;
+    position: absolute;
+    right: 45%;
+    bottom: 15%;
+    left:  32%;
+    box-shadow:  10px 10px 20px #090d26;
+    font-family: sans-serif;
+}
+
+.linea{
+    width: 500px;
+    height: 5px;
+    background-color: #5ed694;
+}
+
+.user{
+    width: 60%;
+    height: 35px;
+    margin-bottom: 15px;
+    margin-top: 30%;
+    margin-left: 20%;
+    padding-left: 10px;
+    background-color: #22284a;
+    color: darkgray;
+    border: none;
+
+}
+
+.psd{
+    width: 60%;
+    height: 35px;
+    margin-bottom: 10px;
+    margin-top: 1%;
+    margin-left: 20%;
+    padding-left: 10px;
+    background-color: #22284a;
+    color: darkgray;
+    border: none;
+}
+
+input[type="checkbox"]{
+    accent-color: #22284a;
+    margin-left: 20%;
+    font-size: 5px;
+    color: darkgray;
+    
+}
+      
+input[type="checkbox"] + label{
+    margin-bottom: 10px;
+    margin-left: 3%;
+    color: #ddd;
+    font-family: sans-serif;
+    font-size: 10px;
+}
+
+input[type="checkbox"] + label + label{
+    margin-bottom: 10px;
+    margin-left: 20%;
+    color: #6176a8;
+    font-family: Tahoma;
+    font-size: 10px;
+}
+
+.btn{
+    width: 30%;
+    height: 35px;
+    background-color: #ea4186;
+    color: aliceblue;
+    border: none;
+    border-radius: 20px ;
+    font-size: 15px;
+    box-shadow:  10px 10px 20px #090d26;
+    margin-left:36%;
+    margin-top: 10%;
+
+}
+
+.btn:hover{
+    background-color: #5ed694;
+}
+
+.img4{
+    position: relative;
+    padding-top: -10%;
+}

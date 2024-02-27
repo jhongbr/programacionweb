@@ -1,0 +1,12 @@
+El termino Devops
+
+es una combinacion de terminos ingleses development
+(desarrollo)
+
+palabras
+
+width = ancho
+heigth = alto
+head = cabeza
+body = cuerpo
+

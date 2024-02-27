@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+
+.container1{
+}
+
+.container2{
+    width: 90vw;
+    height: 80vh;
+    border: 3px solid red;
+    margin-top: 100px;
+    margin-left: 30px;
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    color: aliceblue;
+}
+
+.uno{
+    width: 50%;
+    height: 20%;
+    background-color: rgb(21, 212, 149);
+}
+
+.dos{ 
+    width: 50%;
+    height: 25%;
+    background-color: rgb(25, 118, 240);
+}
+
+.tres{
+    width: 50%;
+    height: 40%;
+    background-color: rgb(114, 10, 128);
+}
+
+.four{  
+    width: 50%;
+    height: 15%;
+    background-color: rgb(15, 12, 20);
+    
+}
+
+.container3{
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    color: aliceblue;
+    justify-content: flex-start;
+}
+
+.five{
+    width: 50%;
+    height: 15%;
+    background-color: rgb(236, 183, 6);
+    
+}
+
+.six{
+    width: 50%;
+    height: 15%;
+    background-color: rgb(248, 101, 3);
+    
+}
