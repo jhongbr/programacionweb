@@ -93,8 +93,3 @@ input[type="checkbox"] + label + label{
 .btn:hover{
     background-color: #5ed694;
 }
-
-.img4{
-    position: relative;
-    padding-top: -10%;
-}
