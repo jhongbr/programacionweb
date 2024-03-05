@@ -77,14 +77,8 @@ let bmi = (peso,altura) =>{
 console.log(bmi(52, 1.75)) //  "Bajo de peso"
 console.log(bmi(135, 1.7)) // "Obeso"
 
-/*ejercicio #4
-Escribir una función llamada imprimirArreglo que reciba
-un arreglo e imprima cada elemento en una línea a parte:
-*/
+//ejercicio #4
+//Escribir una función llamada imprimirArreglo que reciba
+//un arreglo e imprima cada elemento en una línea a parte:
 
-let imprimirArreglo = (cosa) =>{
-    const cosas = [1, "Hola", 2, "Mundo"];
-    for (cosas )
-}
-
-console.log(imprimirArreglo(1, "Hola", 2, "Mundo"))
+let 
