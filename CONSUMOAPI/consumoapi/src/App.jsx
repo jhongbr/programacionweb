@@ -12,7 +12,7 @@ function App() {
     axios.get("https://rickandmortyapi.com/api/character")
       .then((response => {
         console.log(response)
-        setPersonajes(response.personajes)
+        setPersonajes(response.data.results)
       }))
       .catch((error) => {
         console.log(error)
@@ -27,7 +27,7 @@ function App() {
     <>
       <Headers title={"The Rick and Morty API"} />
       <div className='container'>
-        <Personajes personaje={personajes} />
+        <Personajes items={personajes} />
       </div>
     </>
   )

@@ -1,27 +1,22 @@
 import React from 'react'
-import Card from 'react-bootstrap/Card';
+import { PersonajeCard } from './PersonajeCard';
 
-export const Personajes = ({personaje = []}) => {
+
+export const Personajes = ({ items = []}) => {
   return (
-    <div className='row'>
-        {
-          personaje.map((item, index) => 
+    <div className='container1'>
+      <div className='row'>
           {
-            return(
-            <div key={index} className='col'>
-              <Card style={{ width: '18rem' }}>
-                <Card.Img src={item.image} />
-                <Card.Body>
-                  <Card.Title>Card Title</Card.Title>
-                  <Card.Text>
-                  Some quick example text to build on the card title and make up the bulk of the card's content.
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </div>
-            )
-          })
-        }
+            items.map((item, index) => 
+            {
+              return(
+              <div key={index} className='col'>
+                <PersonajeCard item={item}/>
+              </div>
+              )
+            })
+          }
+      </div>
     </div>
   )
 }
