@@ -6,10 +6,10 @@ export const PersonajeCard = ({ item }) => {
     <Card style={{ width: '18rem', marginBottom: "15px" }}>
       <Card.Img src={item.image} alt='personaje' />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the bulk of the card's content.
-        </Card.Text>
+        <Card.Title>{"Nombre: " + item.name}</Card.Title>
+        <Card.Text>{"Status: " + item.status}</Card.Text>
+        <Card.Text>{"Location: " + item.location.name}</Card.Text>
+        <Card.Text>{"Episode: " + item.episode.name}</Card.Text>
       </Card.Body>
     </Card>
   )
