@@ -9,7 +9,7 @@ export const PersonajeCard = ({ item }) => {
         <Card.Title>{"Nombre: " + item.name}</Card.Title>
         <Card.Text>{"Status: " + item.status}</Card.Text>
         <Card.Text>{"Location: " + item.location.name}</Card.Text>
-        <Card.Text>{"Episode: " + item.episode.name}</Card.Text>
+        <Card.Text>{"Origen: " + item.origin.name}</Card.Text>
       </Card.Body>
     </Card>
   )
