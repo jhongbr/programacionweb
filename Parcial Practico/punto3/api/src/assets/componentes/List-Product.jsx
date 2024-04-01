@@ -12,7 +12,7 @@ export const ListProducts = ({ listPersonas }) => {
                 <td>{element.identify}</td>
                 <td>{element.names}</td>
                 <td>{element.telephone}</td>
-                <td>{element.image}</td>
+                <td><div className="imagen">< img width={50} height={50} src={element.image}/></div></td>
               </tr>
             )
           })
