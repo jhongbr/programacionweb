@@ -3,7 +3,7 @@ import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import axios from 'axios';
 
-export const Formulario = () => {
+export const Formulario = ({getPersonas}) => {
   const [names, setNames] = useState("");
   const [telephone, setTelephone] = useState("");
   const [image, setImage] = useState("");
@@ -16,8 +16,11 @@ export const Formulario = () => {
       telephone: telephone,
       image: image,
     }
-    const response = await axios.post("https://kpw1ch0aa1.execute-api.us-east-2.amazonaws.com/dev/project", data);
+    const response = await axios.post("https://zt8wcr6iib.execute-api.us-east-2.amazonaws.com/dev/project", data);
     console.log(response)
+    if (response.status == 200){
+      getPersonas()
+    }
   }
 
   return (

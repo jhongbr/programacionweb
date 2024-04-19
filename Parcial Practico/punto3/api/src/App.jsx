@@ -12,7 +12,7 @@ function App() {
   const [flag, setFlag] = useState(false)
 
   const getPersonas = async () =>{
-    const response = await axios.get("https://kpw1ch0aa1.execute-api.us-east-2.amazonaws.com/dev/project")
+    const response = await axios.get("https://zt8wcr6iib.execute-api.us-east-2.amazonaws.com/dev/project")
     console.log(response)
     setPersonas(response.data)
   }
@@ -24,7 +24,7 @@ function App() {
   return (
     <>
       <Header flag={flag} setFlag={setFlag}/>
-      {flag ? <Formulario /> : <ListProducts listPersonas={personas } />}
+      {flag ? <Formulario getPersonas={getPersonas}/> : <ListProducts listPersonas={personas } />}
     </>
   )
 }
